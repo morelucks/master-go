@@ -89,4 +89,7 @@ func main() {
 	// Multiple variables with the same type
 	var a, b int
 	_, _ = a, b
+
+
+	
 }
