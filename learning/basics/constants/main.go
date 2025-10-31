@@ -113,5 +113,5 @@ func main() {
         blockInterval20s             // 10
         blockInterval30s             // 20
     )
-    _ = blockInterval10s
+    fmt.Println("The value of the blockInterval30s  =",blockInterval30s)
 }
