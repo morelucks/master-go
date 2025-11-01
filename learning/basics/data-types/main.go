@@ -45,7 +45,7 @@ func main() {
     //  byte : alias for uint8
     //  rune : alias for int32
 
-    var blockHeight int64 = 21_000_000 // example of signed integer
+    var blockHeight int64 = 21_000_000 // example of signed integer (BH is the current number of blocks since genesis)
     fmt.Printf("blockHeight type: %T, value: %v\n", blockHeight, blockHeight)
 
     var gasPrice uint32 = 120_000_000 // unsigned integer for gas in gwei
